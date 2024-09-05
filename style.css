@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.over{
+    width: 100%;
+    background: rgba(0,0,0,0.5)url(accounting\ background\ img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: darken;
+    position: fixed;
+}
+.wrapper{
+    width: 1366px;
+    margin: 0 auto;
+    
+}
+.navbar{
+    width: 1200px;
+    height: 20px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.menu{
+     width: 400px;
+     float: left;
+     height: 70px;
+     margin-left: 500px;
+     
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-top: 35px;
+    margin-left: 70px;
+    font-size: 15px;
+}
+ul li a{
+    text-decoration:none;
+    color: white;
+    font-size: arial;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+ul li a:hover{
+    color: orangered;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+   
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-top: 22px;
+    background: transparent;
+    border: 1px solid orangered;
+    float: left;
+    padding: 8px;
+    
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: orangered;
+    margin-top: 20px;
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: 0.3s ease-in;
+    border-radius: 5px;
+    border-color: black;
+
+
+}
+.btn:hover{
+    background-color: white;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    color: white;
+    position: absolute;
+    left: 70px;
+    
+}
+.content .ctn{
+    position: absolute;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    top: 380px;
+
+
+}
+.content h1{
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.content span{
+    color: orangered;
+}
+.form{
+   width: 250px;
+   height: 330px;
+   background-color: black;
+   position: absolute;
+   top: 220px;
+   left: 1000px;
+   border-radius: 10px;
+   
+}
+.form h2{
+width: 230px;
+font-size: 25px;
+color: orangered;
+font-family: arial;
+text-align: center;
+background-color: aliceblue;
+padding: 9.5px;
+border-radius: 10px;
+
+}
+.form input{
+    width: 220px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 13px;
+    background:transparent;
+    border-bottom: 1px solid orangered;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    letter-spacing: 1.2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btrn{
+    width: 220px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 13px;
+    background-color: orangered;
+    color: white;
+    border: 2px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+.btrn:hover{
+   background-color: white;
+   color: orangered;
+}
+.btrn a{
+    text-decoration: none;
+    color: black;
+}
+.link{
+    color: white;
+    margin-left: 5px;
+    margin-top: 15px;
+    text-align: center;
+    
+
+}
+.link a{
+    text-decoration: none;
+    margin-top: 10px;
+    color: orangered;
+}
+.liw{
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+ 
+    
+}
+.icon ion-icon{
+    color: white;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 10px;
+    transition: ease-in 0.2s;
+}
+.icon ion-icon:hover{
+    color: orangered;
+}
+.burger, .burger.btn{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+
+
+    .burger.btn {
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-image: url(burger.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center left 50px ;
+        
+    }
+    .burger{
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        background-color: #111;
+    }
+    .burger ul{
+        width: 100%;
+        height: calc(100vh - 60px);
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+
+    }
+    .burger ul li{
+        flex-basis: 100%;
+        border-top: 2px solid black;
+    }
+    .burger ul li a{
+        display: block;
+        height: 100%;
+        font-size: 2rem;
+        padding: 30px 0;
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+
+    .wrapper{
+        width: 100%;
+        margin: 0 auto;
+       
+        
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        left: 5px;
+
+
+    }
+    .content{
+        width: 290px;
+        height: 200px;
+        color: white;
+        position: absolute;
+        top: 50px;
+        text-align: center;
+        left: 35px;
+
+        
+    }
+    .content h1{
+        position: absolute;
+        top: 40px;
+        left: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        text-align: center;
+    }
+    .content .ctn{
+        position: absolute;
+        font-family: Arial;
+        line-height: 30px;
+        top: 240px;
+        text-align: center;
+        font-size: 13px;
+        
+    }
+    .menu{
+        width: 300px;
+        float: left;
+        height: 8px;
+        margin-left: 130px;
+        position: absolute;
+        top: 30px;
+    }
+    ul li{
+        list-style: none;
+        margin-top: 35px;
+        margin-left: 90px;
+        font-size: 10px;
+        margin: 8px;
+    }
+    
+    
+    
+
+    
+
+
+
+}
+
+

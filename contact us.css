@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+
+}
+.main{
+    width: 100%;
+    background: rgba(0,0,0,0.5)url(contact\ yeah.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: darken;
+    position: fixed;
+}
+.wrapper{
+    width: 1366px;
+    margin: 0 auto;
+}
+.container{
+    
+    border-radius: 60%;
+    position: absolute;
+    display: flex;
+
+    box-sizing: border-box;
+    left: 620px;
+    top: 35px;
+}
+.container img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.btn{
+    position: absolute;
+    left: 1200px;
+    top: 20px;
+    width: 80px;
+    height: 30PX;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20PX;
+    border: none;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.btn:hover{
+    background-color: orangered;
+}
+.loc{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 320px;
+    left: 400px;
+    
+}
+.call{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 320px;
+    left: 900px;
+    
+     
+}
+.OFF{
+    position: absolute;
+    top: 400px;
+    left: 230px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    margin: 10px;
+}
+.add{
+    position: absolute;
+    top: 460px;
+    left: 280px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.con{
+    position: absolute;
+    top: 400px;
+    left: 850px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    margin: 10px;
+    
+}
+.num{
+    position: absolute;
+    top: 460px;
+    left: 820px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.tact{
+    position: absolute;
+    top: 190px;
+    left: 600px;
+   
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.act{
+    position: absolute;
+    top: 230px;
+    left: 500px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media only screen and (max-width: 600px){
+    .btn{
+        position:  fixed;
+        left: 260px;
+        top: 15px;
+        padding-top: 1px;
+        width: 70px;
+        height: 20px;
+        border: 2px solid white;
+        background-color: transparent;
+
+ 
+    }
+    .btn a{
+        text-decoration: none;
+        color: white;
+    }
+    .container{
+        left: 150px;
+        top: 80px;
+    }
+    .container img{
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        position: fixed;
+    }
+    .tact{
+        position:  fixed;
+        top: 165px;
+        left: 145px;
+       
+        color: white;
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+    }
+    .act{
+        position:  fixed;
+        top: 190px;
+        left: 85px;
+        text-align: center;
+        color: white;
+        font-size: 10px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .loc{
+        width: 50px;
+        height: 50px;
+        position:  fixed;
+        top: 290px;
+        left: 50px;
+    }
+    .call{
+        width: 45px;
+        height: 45px;
+        position:  fixed;
+        top: 290px;
+        left: 245px;
+        
+         
+    }
+    .OFF{
+        position: fixed;
+        top: 335px;
+        left: 1px;
+        text-align: center;
+        margin: 8px;
+        font-size: 12px;
+    }
+    .add{
+        position: fixed;
+        width: 160px;
+        top: 370px;
+        left: 1px;
+        text-align: center;
+        color: white;
+        font-size: 12px;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+    .con{
+        position: fixed;
+        top: 335px;
+        left: 220px;
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+        margin: 8px;
+        font-size: 16px;
+        
+    }
+    .num{
+        position: fixed;
+        width: 200px;
+        top:370px;
+        left: 165px;
+        text-align: center;
+        color: white;
+        font-size: 12px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+}
